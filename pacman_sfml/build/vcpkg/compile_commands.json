@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\main.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\main.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/main.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\Game.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\Game.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/Game.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\Map.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\Map.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/Map.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/Map.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\Player.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\Player.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/Player.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\Ghost.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\Ghost.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/Ghost.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/Ghost.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\Menu.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\Menu.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/Menu.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/Menu.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\Renderer.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\Renderer.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/Renderer.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/Renderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\BitmapFont.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\BitmapFont.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/BitmapFont.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/BitmapFont.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\SpriteAtlas.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\SpriteAtlas.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/SpriteAtlas.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/SpriteAtlas.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Desktop/муусор/test/pacman_sfml/src -isystem C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/vcpkg_installed/x64-mingw-dynamic/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\pacman.dir\\src\\AudioManager.cpp.obj -c C:\\Users\\User\\Desktop\\муусор\\test\\pacman_sfml\\src\\AudioManager.cpp",
+  "file": "C:/Users/User/Desktop/муусор/test/pacman_sfml/src/AudioManager.cpp",
+  "output": "C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir/src/AudioManager.cpp.obj"
+}
+]

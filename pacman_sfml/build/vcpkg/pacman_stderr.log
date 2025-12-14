@@ -1,0 +1,12 @@
+[Game] Window and Renderer created
+[Game] VSync enabled
+[Game] RNG seeded
+[Game] Main menu configured
+[Game] Pause menu configured
+[Game] Loading font from: assets/fonts/PressStart2P.ttf
+[Game] Font loaded
+[Game] Loading atlas from: assets/sprites/atlas.bmp and assets/sprites/atlas.json
+[Game] Atlas loaded
+[Game] Audio volume set
+[Game] Loading sounds...
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h:1263: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](size_type) [with _Tp = short int; _Alloc = std::allocator<short int>; reference = short int&; size_type = long long unsigned int]: Assertion '__n < this->size()' failed.

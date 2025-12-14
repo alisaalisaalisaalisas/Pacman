@@ -1,0 +1,16 @@
+{
+  "name": "pacman-sfml",
+  "version-string": "0.1.0",
+  "builtin-baseline": "594ad8871e1e8e45f8e626c015fd611163430207",
+  "description": "Pac-Man style game built with SFML",
+  "dependencies": [
+    "sfml",
+    "nlohmann-json"
+  ],
+  "overrides": [
+    {
+      "name": "sfml",
+      "version": "2.6.2"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/pacman.dir
+C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/муусор/test/pacman_sfml/build/vcpkg/CMakeFiles/rebuild_cache.dir

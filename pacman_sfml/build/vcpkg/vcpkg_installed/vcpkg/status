@@ -1,0 +1,252 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 3e9ac998259c76be504fb55c7aa9d0a96e5512c5b65ad37f46acd8bf2af9cb88
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 87935da58cf166cdb9cc4e265eb610b43fd12f1172f58def062aad2922e9e825
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.12.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: a909fb7cea63b41a9c2a6d7d68bc7c55a4768fa1d3f02a2843d7e23e01729c80
+Description: JSON for Modern C++
+Status: install ok installed
+
+Package: egl-registry
+Version: 2025-05-27
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 7e24dffbbeb5532adb5d52e4e7a8622e68ccee58acd2a2bf6f94c87fb834cedf
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2025-10-23
+Depends: egl-registry
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: b8d58a09370742207cbf5541f507fbc5e3596435f4351e41163e61eab640bfef
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: d3a282f5138c370422eb8e4168bc9b88995a61e6f953933e3c2748273f0df79a
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: stb
+Version: 2024-07-29
+Port-Version: 1
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 6c60cd15d1739ae00c6ba5c34027f8ee4ea33c89c53a0ab84753d057fcd935cd
+Description: public domain header-only libraries
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 0ecdb6bd9f1a3a99d58146f48389f7cee7fa6c0bbf817d6829bc0f4dd2113b54
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.53
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 16bfba71d538804ac25fc0ca3187a850ab49eda955a1b039ad46e31789ebcd95
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 6
+Depends: vcpkg-cmake
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: f4448491a3f24e89d044a0178c21c081fa3024e41587bd4d0392fb0b7a5f4d91
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: install ok installed
+
+Package: bzip2
+Feature: tool
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: install ok installed
+
+Package: brotli
+Version: 1.2.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 91d01c901dac2f202194a847079755cffc96004eb67f0525c3cc98963a17a1a5
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: freetype
+Version: 2.13.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 8323a36f85bed875aa8b42ecefda0aa8dbceb630c2db88e71e0297babbf49571
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: install ok installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: install ok installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: install ok installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: install ok installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: install ok installed
+
+Package: miniaudio
+Version: 0.11.23
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: aadcbcf562291127fe9f5c1a509ec735a101f85c72db18ae5e90f5dbab1e226e
+Description: Audio playback and capture library written in C, in a single source file
+Status: purge ok not-installed
+
+Package: libogg
+Version: 1.3.6
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 47bf78b99dc61d154804a2696119ca4788c6145899ed50b6c05d216b3ff4c5f6
+Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+Status: install ok installed
+
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 4
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: ac548c2fac34a901cb4a0e95891d38cb2c12f036321e71ec47c7a757fba78689
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: install ok installed
+
+Package: libflac
+Version: 1.5.0
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 5e30ba3f14e47441685faa39d422cd128d4b2fcd806f476d47c3aff61d66a67d
+Description: Library for manipulating FLAC files
+Default-Features: stack-protector
+Status: install ok installed
+
+Package: libflac
+Feature: stack-protector
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Build with stack smashing protection
+Status: install ok installed
+
+Package: sfml
+Version: 2.6.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: f90cc3703957777bc64a39e31db6603b66acea1d6d29aff8cf3bd85c155ae54e
+Description: Simple and fast multimedia library
+Default-Features: audio, graphics, network, window
+Status: install ok installed
+
+Package: sfml
+Feature: audio
+Depends: libflac, libogg, libvorbis, openal-soft
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Use sfml-audio library
+Status: install ok installed
+
+Package: sfml
+Feature: graphics
+Depends: freetype, stb
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Use sfml-graphics library
+Status: install ok installed
+
+Package: sfml
+Feature: network
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Use sfml-network library
+Status: install ok installed
+
+Package: sfml
+Feature: window
+Depends: opengl
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Use sfml-window library
+Status: install ok installed
+
+Package: fmt
+Version: 12.1.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: d8f34f20f6d2fb330ecfd3c198804848079229d334735fed9b05003bdf084c5f
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+
+Package: openal-soft
+Version: 1.24.3
+Port-Version: 1
+Depends: fmt, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 9d4e254716fc2b26ff34629c145732ee2ea4fe70ef16595ead4c2fcdb3baf77b
+Description: OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
+Status: install ok installed
+

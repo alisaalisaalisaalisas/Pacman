@@ -1,0 +1,15 @@
+x64-mingw-dynamic/
+x64-mingw-dynamic/debug/
+x64-mingw-dynamic/debug/lib/
+x64-mingw-dynamic/debug/lib/pkgconfig/
+x64-mingw-dynamic/debug/lib/pkgconfig/glu.pc
+x64-mingw-dynamic/debug/lib/pkgconfig/opengl.pc
+x64-mingw-dynamic/lib/
+x64-mingw-dynamic/lib/pkgconfig/
+x64-mingw-dynamic/lib/pkgconfig/glu.pc
+x64-mingw-dynamic/lib/pkgconfig/opengl.pc
+x64-mingw-dynamic/share/
+x64-mingw-dynamic/share/opengl/
+x64-mingw-dynamic/share/opengl/usage
+x64-mingw-dynamic/share/opengl/vcpkg.spdx.json
+x64-mingw-dynamic/share/opengl/vcpkg_abi_info.txt

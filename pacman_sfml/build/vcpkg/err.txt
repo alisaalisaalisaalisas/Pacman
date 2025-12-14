@@ -1,0 +1,128 @@
+[Game] Window and Renderer created
+[Game] VSync enabled
+[Game] RNG seeded
+[Game] Main menu configured
+[Game] Pause menu configured
+[Game] Loading font from: assets/fonts/PressStart2P.ttf
+Failed to load font "assets/fonts/PressStart2P.ttf" (failed to create the font face)
+Failed to load font: assets/fonts/PressStart2P.ttf
+[Game] Font loaded
+[Game] Loading atlas from: assets/sprites/atlas.bmp and assets/sprites/atlas.json
+[Game] Atlas loaded
+[Game] Audio volume set
+[Game] Loading sounds...
+[Game] Sounds loaded
+[Game] Loading music from: assets/sounds/music.wav
+[Game] Music started
+[Game] Loading level 1...
+[Game] Level loaded
+[Game] State changed to: 0
+[Game] Constructor complete!
+[Game] Starting new game...
+[Game] State changed to: 1
+[Game] Map size: 28x31
+[Game] Player spawn at: 108, 156
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=2
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=0
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Game] State changed to: 2
+[Game] State changed to: 1
+[Game] State changed to: 2
+[Game] State changed to: 0
+[Game] Starting new game...
+[Game] State changed to: 1
+[Game] Map size: 28x31
+[Game] Player spawn at: 108, 156
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(106.933,156) dir=3 req=3
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
+[Player] tile=(13,19) pos=(109.067,156) dir=4 req=4
+[Player] nearCenter=1 canStep(dir)=1 canStep(req)=1
